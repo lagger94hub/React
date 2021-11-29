@@ -1,0 +1,22 @@
+@use "../abstracts" as *;
+
+.btn-s {
+  @include rounded-corners(16px, 16px, 16px, 16px);
+  border: none;
+  padding: .5rem;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+
+  &:hover {
+    background-color: limegreen;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.btn-l  {
+  @extend .btn-s;
+  width : 100%;
+}
+

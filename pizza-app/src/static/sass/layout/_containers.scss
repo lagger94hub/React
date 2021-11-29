@@ -1,0 +1,37 @@
+@use "../abstracts" as *;
+
+// here we can put the main container with tha main parts like header,main,sections,footer..etc
+
+/*setting the full page size for body and html elements*/
+/* the general design with paddings, margins, main-bgcolors, main-fonts and basic layout */
+
+
+body {
+  background-color: white;
+  @include font($font:"font-1", $size:1rem);
+  font-weight: 700;
+  overflow: hidden;
+
+}
+
+.main-container {
+  margin: auto;
+  background-image: url('/src/static/imgs/pizza_cover.png') ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.modal-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+  padding-top: 2rem;
+}
+
+

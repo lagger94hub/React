@@ -1,0 +1,26 @@
+@use "../abstracts" as *;
+
+.task {
+  padding: 1rem;
+  background-color:  lightgray;
+  border: solid rgb(62, 78, 112) 2px;
+  @include rounded-corners(1rem, 1rem, 1rem, 1rem);
+  &:hover {
+    cursor: pointer;
+  }
+  transition: opacity 1s ease-out;
+  -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  -ms-transition: opacity 1s ease-out;
+  -o-transition: opacity 1s ease-out;
+}
+
+
+.task-r {
+  background-color: rgb(56, 47, 47);
+  border: solid rgb(247, 223, 90) 2px;
+  color: white;
+}
+
+
+

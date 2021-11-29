@@ -1,0 +1,10 @@
+@use "../abstracts" as *;
+
+input[type= "text"] {
+  width: 60%;
+  @include rounded-corners(.5rem, .5rem, .5rem, .5rem);
+
+}
+label {
+  width: 40%;
+}

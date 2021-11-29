@@ -1,0 +1,33 @@
+@use "../abstracts" as *;
+
+// here we can put the main container with tha main parts like header,main,sections,footer..etc
+
+/*setting the full page size for body and html elements*/
+/* the general design with paddings, margins, main-bgcolors, main-fonts and basic layout */
+
+
+body {
+  background-color: white;
+  @include font($font:"font-1", $size:1rem);
+  font-weight: 700;
+
+}
+
+.main-container {
+  padding: 1rem;
+  min-width: 18.5rem;
+  max-width: 30.0625rem;
+  margin: auto;
+  border: solid black 5px;
+  margin-top:3rem;
+  @include rounded-corners(1rem, 1rem, 1rem, 1rem);
+}
+
+.tasks-container { 
+  margin-top: 3rem;
+}
+
+.myForm {
+  padding: 2.5rem;
+}
+

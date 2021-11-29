@@ -1,0 +1,22 @@
+@use "../abstracts" as *;
+
+.pizza-img {
+  min-height: 100vh;
+}
+
+.details {
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+}
+
+.welcome {
+  font-size: 4rem;
+}
+
+.create-btn {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+
+ 
+}
